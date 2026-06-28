@@ -1,3 +1,36 @@
+/*
+    Project Name: Apple Sales SQL Analysis
+    File Name: queries.sql
+    Database: PostgreSQL
+
+    Description:
+    This file contains SQL queries used to analyze Apple sales data.
+    The queries answer business questions related to store performance,
+    product sales, warranty claims, yearly growth, monthly trends,
+    and country-level analysis.
+
+    Main Analysis Areas:
+    1. Store distribution by country
+    2. Warranty claim analysis
+    3. Product sales performance
+    4. Store-level sales trends
+    5. Year-over-year growth
+    6. Monthly running totals
+    7. Product price and warranty claim relationship
+
+    SQL Concepts Used:
+    - Joins
+    - Aggregations
+    - GROUP BY
+    - ORDER BY
+    - HAVING
+    - Common Table Expressions
+    - Window Functions
+    - Date Functions
+    - Percentage Calculations
+    - Correlation Analysis
+*/
+
 SELECT
     country,
     COUNT(*) AS total_stores
