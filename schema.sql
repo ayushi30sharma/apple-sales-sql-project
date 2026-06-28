@@ -1,3 +1,28 @@
+/*
+    Project Name: Apple Sales SQL Analysis
+    File Name: schema.sql
+    Database: PostgreSQL
+
+    Description:
+    This file contains the SQL commands used to create the database tables
+    for the Apple Sales Analysis project. The schema is designed based on
+    the ER diagram and includes tables for categories, products, stores,
+    sales, and warranty claims.
+
+    Tables Created:
+    1. category
+    2. products
+    3. stores
+    4. sales
+    5. warranty
+
+    Key Concepts:
+    - Primary Keys
+    - Foreign Keys
+    - Table Relationships
+    - Relational Database Design
+*/
+
 CREATE TABLE category (
     category_id varchar(10) PRIMARY KEY,
     category_name varchar(20) NOT NULL
