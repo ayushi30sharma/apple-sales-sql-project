@@ -3,7 +3,7 @@
     File Name: queries.sql
     Database: PostgreSQL
 
-    Description:
+ Description:
     This file contains SQL queries used to analyze Apple sales data.
     The queries answer business questions related to store performance,
     product sales, warranty claims, yearly growth, monthly trends,
