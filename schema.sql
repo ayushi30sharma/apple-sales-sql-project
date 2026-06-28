@@ -3,7 +3,7 @@
     File Name: schema.sql
     Database: PostgreSQL
 
-    Description:
+Description:
     This file contains the SQL commands used to create the database tables
     for the Apple Sales Analysis project. The schema is designed based on
     the ER diagram and includes tables for categories, products, stores,
